@@ -46,21 +46,21 @@ The mobility data is of the following structure:
 
 Column | Type | Description
 -------|------|-------------
-Venpath_id | int | Auto-incrementing key to denote that this is a unique locate
-App_id | str | The source app that provided this data
-Ad_id | str | The annonymized advertising ID
-Id_type | str | iOS (idfa) or Android (afid)
-Country_code | str | The locale setting on the user's phone
-Device_make | str | The make of the user's device
-Device_model | str | The model of the user's device
-Device_os | str | The operating system of the user's device
-Device_os_version | str | The version of the operating system on the user's device
-Latitude | float | The geographical latitude
-Longitude | float | The geographical longitude
-Timestamp | timestamp | The UTC timestamp / datestamp of when this location point was collected
-Ip_address | str | The IP address of the user at the time of the data collection
-Horizontal_accuracy | float | The horizontal accuracy of the location point, in meters
-Vertical_accuracy | str | The vertical accuracy of the location point, in meters
+venpath_id | int | Auto-incrementing key to denote that this is a unique locate
+app_id | str | The source app that provided this data
+ad_id | str | The annonymized advertising ID
+id_type | str | iOS (idfa) or Android (afid)
+country_code | str | The locale setting on the user's phone
+device_make | str | The make of the user's device
+device_model | str | The model of the user's device
+device_os | str | The operating system of the user's device
+device_os_version | str | The version of the operating system on the user's device
+latitude | float | The geographical latitude
+longitude | float | The geographical longitude
+timestamp | timestamp | The UTC timestamp / datestamp of when this location point was collected
+ip_address | str | The IP address of the user at the time of the data collection
+horizontal_accuracy | float | The horizontal accuracy of the location point, in meters
+vertical_accuracy | str | The vertical accuracy of the location point, in meters
 foreground | bool | true if the ping was collected in the foreground or false if it was collected in the background
 
 ## Anciliary Data
