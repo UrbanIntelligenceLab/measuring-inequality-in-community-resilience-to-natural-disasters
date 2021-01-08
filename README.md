@@ -1,7 +1,7 @@
 # Summary
-This repository documents the data processing and analysis perform on the data to support the findings presented in the article **"Large-scale Mobility Behavior and Community Resilience"** published in *Nature Communications*.
+This repository documents the data processing and analysis perform on the data to support the findings presented in the article **"Evaluating Inequality in Community Resilience Using Large-scale Mobility Data"** published in *Nature Communications*.
 
-## Title: Large-scale Mobility Behavior and Community Resilience
+## Title: Evaluating Inequality in Community Resilience Using Large-scale Mobility Data
 
 **Authors**: [Boyeong Hong](https://marroninstitute.nyu.edu/people/boyeong-hong)<sup>1</sup>, [Bartosz J. Bonczak](https://marroninstitute.nyu.edu/people/bartosz-bonczak)<sup>1</sup>, [Arpit Gupta](https://www.stern.nyu.edu/faculty/bio/arpit-gupta)<sup>2</sup>, and [Constantine E. Kontokosta](https://marroninstitute.nyu.edu/people/constantine-kontokosta)<sup>1,3,*</sup>
 
@@ -17,7 +17,7 @@ This repository documents the data processing and analysis perform on the data t
 While conceptual definitions provide a foundation for the study of disasters and their impacts,  thechallenge for researchers and practitioners alike has been to develop objective and rigorous measuresof resilience that are generalizable and scalable, taking into account spatio-temporal dynamics in theresponse and recovery of localized communities. In this paper, we analyze mobility patterns of morethan 800,000 anonymized mobile devices in Houston, Texas, representing approximately 35% of thelocal population, in response to Hurricane Harvey in 2017. Using changes in mobility behavior before,during, and after the disaster, we empirically define community resilience capacity as a function of themagnitude of impact and time-to-recovery. Overall, we find clear socioeconomic and racial disparities inresilience capacity and evacuation patterns. Our work provides new insight into the behavioral responseto disasters and provides the basis for data-driven public sector decisions that prioritize the equitableallocation of resources to vulnerable neighborhoods.
 
 ## Cite
-Hong, B., Bonczak, B., Gupta, A., & Kontokosta, C. E. (in press). Large-scale Mobility Behavior and Community Resilience. *Nature Communications*
+Hong, B., Bonczak, B., Gupta, A., & Kontokosta, C. E. (in press). Evaluating Inequality in Community Resilience Using Large-scale Mobility Data. *Nature Communications*
 
 # Repository Structure
 The repository documents the data processing and analysis perform on the data to support the findings of the study reported in the published article. It is structured as follows:
