@@ -42,7 +42,7 @@ The annonymized geolocated mobile application activity data that support the fin
 reasonable request and with permission of VenPath, Inc.
 
 ### Data structure
-The mobility data is of the following structure:
+The mobility data was organized by the date of registering it in the database, not by the date of ping creation and is partitioned by year, month and day. It is of the following structure:
 
 Column | Type | Description
 -------|------|-------------
