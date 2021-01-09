@@ -6,7 +6,9 @@ Author: Bartosz Bonczak
 Title: 02_subset_houston_activity
 
 Description:
-This code snippet generates a subset of mobility data within the Houston, TX area defined by a bounding box and covering two months period of August and September 2017.
+This code snippet generates a subset of mobility data within the Houston, 
+TX area defined by a bounding box and covering two months period of 
+August and September 2017.
 """
 
 ## Imports
