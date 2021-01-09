@@ -6,16 +6,22 @@ Author: Bartosz Bonczak
 Title: 01_mobility_data_aggregation
 
 Description:
-This code is designed to simplify and reduce both spatial and temporal resolution of the raw, annonymized mobility data provided by VenPath Inc. in order further reduce the risk of re-identification of the individual device and to normalize ping frequency in various application types. It is achieved by the following steps:
-- standardize device's uniqe and annonymous adevrtisement ID (ad_id) information by using upper case 
-- aggregating mobility data by 5-minute interval and reporting  average latitude and longitude
+This code is designed to simplify and reduce both spatial and temporal 
+resolution of the raw, annonymized mobility data provided by VenPath Inc. 
+in order further reduce the risk of re-identification of the individual 
+device and to normalize ping frequency in various application types. It 
+is achieved by the following steps:
+- standardize device's uniqe and annonymous adevrtisement ID (ad_id) 
+information by using upper case 
+- aggregating mobility data by 5-minute interval and reporting  average 
+latitude and longitude
 """
 
 # Imports
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
 
-from pyspark.sql.functions import mean, window, upper, col, count, round, collect_set
+from pyspark.sql.functions import mean, window, upper, col, count, round,collect_set
 from pyspark.sql.types import * # import types
 
 
