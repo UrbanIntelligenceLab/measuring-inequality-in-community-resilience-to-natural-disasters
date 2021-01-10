@@ -1,5 +1,5 @@
 # Summary
-This repository documents the data processing and analysis perform on the data to support the findings presented in the article **"Measuring Inequality in Community Resilience to Natural Disasters Using Large-scale Mobility Data"** published in *Nature Communications*.
+This repository documents the data processing and the analysis performed on the data to support the findings presented in the article **"Measuring Inequality in Community Resilience to Natural Disasters Using Large-scale Mobility Data"** published in *Nature Communications*.
 
 ## Title: Measuring Inequality in Community Resilience to Natural Disasters Using Large-scale Mobility Data
 
