@@ -23,11 +23,11 @@ if __name__ == "__main__":
 	sc = SparkContext()
 	sqlContext = SQLContext(sc)
 
-	fs_path = ""   # specify data path
+	data_path = ""   # specify data path
 	dest_path = "" # specify output destination path
 
 	# load aggregated data
-	df = sqlContext.read.parquet('{}/daily_5min_agg_parquet/'.format(fs_path))
+	df = sqlContext.read.parquet('{}/daily_5min_agg_parquet/'.format(data_path))
 
 	# filter data to represent pings from August and September 2017 
 	# within the Houston area and remove randomized devices
@@ -47,3 +47,9 @@ if __name__ == "__main__":
 	.format("com.databricks.spark.csv") \
     .option("codec", "org.apache.hadoop.io.compress.GzipCodec") \
     .save("{}/houston_aug_sep_2017/".format(dest_path))
+
+    # or alternatively save as parquet files for easier processing in PySpark
+    subset.select("time", "ad_id", "latitude", "longitude", "count") \
+    .mode("overwrite") \
+    .write \
+    .parquet("{}/houston_aug_sep_2017_parquet/".format(dest_path))

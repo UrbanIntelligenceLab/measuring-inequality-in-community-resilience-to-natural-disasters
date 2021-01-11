@@ -21,7 +21,7 @@ latitude and longitude
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
 
-from pyspark.sql.functions import mean, window, upper, col, count, round,collect_set
+from pyspark.sql.functions import mean, window, upper, col, count, round, collect_set
 from pyspark.sql.types import * # import types
 
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
 	sc = SparkContext()
 	sqlContext = SQLContext(sc)
 
-	fs_path = ""   # specify path to the data
+	data_path = ""   # specify path to the data
 	dest_path = "" # specify output path
 
 	# Specify schema
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 	df = sqlContext.read.format("csv") \
 		.schema(schema) \
 		.option("header", "false") \
-		.load(fs_path)
+		.load(data_path)
 
 	# standardize ad_id 
 	df = df.withColumn('ad_id_upper', upper(col('ad_id')))
