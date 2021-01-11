@@ -194,4 +194,4 @@ if __name__ == "__main__":
 	.write.format("csv") \
 	.option("header", True) \
 	.mode("overwrite") \
-	.save('{}/clustering_02_2020'.format(dest_path))
+	.save('{}/DBSCAN_clustering'.format(dest_path))
