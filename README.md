@@ -13,6 +13,8 @@ This repository documents the data processing and the analysis performed on the 
 
 <sup>*</sup>Correspondence and requests for materials should be addressed to Constantine E. Kontokosta (email: <ckontokosta@nyu.edu>).
 
+![Figure 1](https://github.com/UrbanIntelligenceLab/measuring-inequality-in-community-resilience-to-natural-disasters/blob/main/figures/Fig1.png?raw=true)
+
 ## Abstract
 While conceptual definitions provide a foundation for the study of disasters and their impacts,  thechallenge for researchers and practitioners alike has been to develop objective and rigorous measuresof resilience that are generalizable and scalable, taking into account spatio-temporal dynamics in theresponse and recovery of localized communities. In this paper, we analyze mobility patterns of morethan 800,000 anonymized mobile devices in Houston, Texas, representing approximately 35% of thelocal population, in response to Hurricane Harvey in 2017. Using changes in mobility behavior before,during, and after the disaster, we empirically define community resilience capacity as a function of themagnitude of impact and time-to-recovery. Overall, we find clear socioeconomic and racial disparities inresilience capacity and evacuation patterns. Our work provides new insight into the behavioral responseto disasters and provides the basis for data-driven public sector decisions that prioritize the equitableallocation of resources to vulnerable neighborhoods.
 
