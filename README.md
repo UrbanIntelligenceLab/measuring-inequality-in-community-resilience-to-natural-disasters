@@ -28,7 +28,6 @@ The repository documents the data processing and analysis perform on the data to
 .\root
     |--- data                   # placeholder directory intended to contain raw data
     |--- figures                # figures generated for the publication purposes
-    |--- outputs                # placeholder directory intended to contain processed output data used for the analysis
     |--- scripts                # contains all scripts used in the study 
          |--- data_processing   # scripts processing raw data
          |--- analysis          # scripts documenting analytical tasks
