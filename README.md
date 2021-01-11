@@ -29,7 +29,7 @@ The repository documents the data processing and analysis perform on the data to
     |--- data                   # placeholder directory intended to contain raw data
     |--- figures                # figures generated for the publication purposes
     |--- scripts                # contains all scripts used in the study 
-         |--- data_processing   # scripts processing raw data
+         |--- data_processing   # scripts processing raw data with PySpark on HDFS cluster
          |--- analysis          # scripts documenting analytical tasks
 ```
 
