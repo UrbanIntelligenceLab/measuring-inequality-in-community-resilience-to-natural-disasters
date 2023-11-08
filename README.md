@@ -19,7 +19,7 @@ This repository documents the data processing and the analysis performed on the 
 While conceptual definitions provide a foundation for the study of disasters and their impacts,  thechallenge for researchers and practitioners alike has been to develop objective and rigorous measuresof resilience that are generalizable and scalable, taking into account spatio-temporal dynamics in theresponse and recovery of localized communities. In this paper, we analyze mobility patterns of morethan 800,000 anonymized mobile devices in Houston, Texas, representing approximately 35% of thelocal population, in response to Hurricane Harvey in 2017. Using changes in mobility behavior before,during, and after the disaster, we empirically define community resilience capacity as a function of themagnitude of impact and time-to-recovery. Overall, we find clear socioeconomic and racial disparities inresilience capacity and evacuation patterns. Our work provides new insight into the behavioral responseto disasters and provides the basis for data-driven public sector decisions that prioritize the equitableallocation of resources to vulnerable neighborhoods.
 
 ## Cite
-Hong, B., Bonczak, B., Gupta, A., & Kontokosta, C. E. (in press). Measuring Inequality in Community Resilience to Natural Disasters Using Large-scale Mobility Data. *Nature Communications*
+Hong, B., Bonczak, B. J., Gupta, A., & Kontokosta, C. E. (2021). Measuring inequality in community resilience to natural disasters using large-scale mobility data. *Nature communications*, 12(1), 1870.
 
 # Repository Structure
 The repository documents the data processing and analysis perform on the data to support the findings of the study reported in the published article. It is structured as follows:
